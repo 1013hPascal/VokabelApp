@@ -1,8 +1,8 @@
-\# Vokabelapp für blinde Menschen
+\# VokabelApp für blinde Menschen
 
 
 
-Diese Vokabelapp ist speziell für blinde Menschen konzipiert.
+Diese VokabelApp ist speziell für blinde Menschen konzipiert.
 
 Sie ist während meiner Teilnahme an einem Sprachkurs entstanden.
 
