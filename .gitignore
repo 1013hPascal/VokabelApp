@@ -1,0 +1,21 @@
+# Ergänzt von CodeCockpit
+# Virtuelle Umgebungen und Caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+# Build-Ordner und Exe-Dateien
+build/
+dist/
+*.exe
+# Geheimnisse und private Daten
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.log

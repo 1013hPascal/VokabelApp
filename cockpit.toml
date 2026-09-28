@@ -1,0 +1,18 @@
+[exe]
+source = "cockpit"
+date = "2026-09-28T14:28:45"
+commit = "a3c307af9633494ab6e10b7c271fafe75a242037"
+version = ""
+pending = false
+tested = true
+
+[exe.build]
+start_file = "engine.py"
+name = "VokabelApp"
+one_file = false
+windowed = true
+icon = ""
+datas = []
+hidden_imports = []
+self_test = false
+test_seconds = 10
