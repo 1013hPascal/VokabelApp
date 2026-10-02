@@ -21,8 +21,11 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Vokabeltrainer")
 
         # Pfad merken, weil wir config.csv aus dem Menü heraus schreiben wollen
-        self.config_path = "config.csv"
-        self.engine = VocabEngine(base_dir="Meine-Vokabeln", config_path=self.config_path)
+        import sys
+        from pathlib import Path
+        base_path = Path(sys.executable).parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parent
+        self.config_path = str(base_path / "config.csv")
+        self.engine = VocabEngine(base_dir=str(base_path / "Meine-Vokabeln"), config_path=self.config_path)
 
         self.course_name: Optional[str] = None
         self.selected_csvs: List[str] = []

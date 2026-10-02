@@ -341,6 +341,18 @@ class VocabSession:
 # ----------------------------
 class VocabEngine:
     def __init__(self, base_dir: str = "Meine-Vokabeln", config_path: str = "config.csv"):
+        import sys
+        from pathlib import Path
+        if getattr(sys, "frozen", False):
+            base_path = Path(sys.executable).parent
+        else:
+            base_path = Path(__file__).resolve().parent
+        
+        # Wenn ein expliziter Pfad übergeben wird (z.B. von der GUI), wird dieser genutzt, 
+        # ansonsten wird er auf Basis des Standorts korrigiert.
+        if not base_dir or base_dir == "Meine-Vokabeln":
+            base_dir = str(base_path / "Meine-Vokabeln")
+        
         self.base_dir = Path(base_dir)
         self.base_dir.mkdir(parents=True, exist_ok=True)
 

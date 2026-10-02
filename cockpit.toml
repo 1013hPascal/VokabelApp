@@ -7,7 +7,7 @@ pending = false
 tested = true
 
 [exe.build]
-start_file = "engine.py"
+start_file = "gui.py"
 name = "VokabelApp"
 one_file = false
 windowed = true
@@ -16,3 +16,7 @@ datas = []
 hidden_imports = []
 self_test = false
 test_seconds = 10
+beside = [
+    "Meine-Vokabeln",
+    "readme.md",
+]
