@@ -25,7 +25,9 @@ class MainWindow(QMainWindow):
         from pathlib import Path
         base_path = Path(sys.executable).parent if getattr(sys, "frozen", False) else Path(__file__).resolve().parent
         self.config_path = str(base_path / "config.csv")
-        self.engine = VocabEngine(base_dir=str(base_path / "Meine-Vokabeln"), config_path=self.config_path)
+        vocab_dir = base_path / "Meine-Vokabeln"
+        vocab_dir.mkdir(parents=True, exist_ok=True)
+        self.engine = VocabEngine(base_dir=str(vocab_dir), config_path=self.config_path)
 
         self.course_name: Optional[str] = None
         self.selected_csvs: List[str] = []
