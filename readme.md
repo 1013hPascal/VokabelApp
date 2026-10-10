@@ -136,5 +136,16 @@ Das wird auch bei den CSV Dateien angezeigt, damit man sieht, welche Dateien man
 
 Nach dem Lernen fragt die App im Menü ab, wie weiter gelernt werden soll.
 
+## Änderungen
 
+### 1.0.4 (10.10.2026)
 
+- Vokabeldateien im Verzeichnis SpanischA11 bereinigt und ersetzt
+
+### 1.0.3 (03.10.2026)
+
+- Exe-Einrichtung mit KI
+
+### 1.0.2 (03.10.2026)
+
+- keine ahnung

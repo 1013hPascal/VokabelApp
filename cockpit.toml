@@ -20,3 +20,6 @@ beside = [
     "Meine-Vokabeln",
     "readme.md",
 ]
+
+[readme.managed."README.md"]
+changes = "2c8cbf49f577"
