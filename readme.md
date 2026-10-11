@@ -138,6 +138,10 @@ Nach dem Lernen fragt die App im Menü ab, wie weiter gelernt werden soll.
 
 ## Änderungen
 
+### 1.0.5 (11.10.2026)
+
+- MIT-Lizenz hinzugefügt
+
 ### 1.0.4 (10.10.2026)
 
 - Vokabeldateien im Verzeichnis SpanischA11 bereinigt und ersetzt
@@ -145,7 +149,3 @@ Nach dem Lernen fragt die App im Menü ab, wie weiter gelernt werden soll.
 ### 1.0.3 (03.10.2026)
 
 - Exe-Einrichtung mit KI
-
-### 1.0.2 (03.10.2026)
-
-- keine ahnung
