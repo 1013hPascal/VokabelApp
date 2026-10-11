@@ -18,7 +18,6 @@ self_test = false
 test_seconds = 10
 beside = [
     "Meine-Vokabeln",
-    "readme.md",
 ]
 
 [readme.managed."README.md"]

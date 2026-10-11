@@ -1,5 +1,5 @@
 # Erstellt von CodeCockpit. Sie dürfen die Datei anpassen, das Cockpit nutzt sie
-# bei jedem Bau weiter. Pfade sind relativ zum Ordner Code.
+# bei jedem Bau weiter. Pfade sind relativ zum Ordner Repository.
 
 a = Analysis(['gui.py'], pathex=[], binaries=[], datas=[],
              hiddenimports=[], excludes=[])
